@@ -1,0 +1,44 @@
+.thank-you-section {
+  background: url("../img/thank-you-page-img/Thank\ You-bg\ img-min.png")
+    no-repeat center center/cover;
+  padding: 0 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.thank-you-cintainer {
+  text-align: center;
+  /* max-width: 60rem; */
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 150px;
+  line-height: 150px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 45rem;
+  margin-inline: auto;
+}
+
+button{
+    min-width: 9rem;
+    border-radius: 40px;
+}

@@ -1,0 +1,89 @@
+.store-hero-section {
+  background: url("../img/store-page-img/Store\ Image-header.png") no-repeat
+    center center/cover;
+}
+
+.hero-container {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.product-container {
+  display: flex;
+  gap: 4em;
+  flex-wrap: wrap;
+}
+
+.product-right,
+.product-left {
+  min-width: 19rem;
+}
+.product-left {
+  flex: 20%;
+  max-width: 40rem;
+}
+.product-right {
+  flex: 50%;
+  max-width: 40rem;
+}
+
+.product-highlights ul li {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 36rem;
+}
+
+.dropdown {
+  border: 1px solid #9b9b9b;
+  border-radius: 10px;
+  max-width: 8rem;
+  padding: 5px;
+}
+
+.product-right ul {
+  padding-left: 20px;
+}
+
+.product-right button {
+  min-width: 10rem;
+}
+
+.computer-hardware-section {
+  background-color: #f7f7f7;
+}
+
+.specifications {
+  text-align: left;
+  border: 2px solid #a9a9a9;
+  border-radius: 15px;
+  border-spacing: 0;
+  width: 100%;
+}
+
+thead {
+  background-color: #b7e4c7;
+}
+
+.specifications th {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 12px 25px;
+  font-size: 24px;
+}
+.specifications td {
+  padding: 7px 25px;
+  border-top: 2px solid #a9a9a9;
+  color: #676767;
+}
+
+.product-right ul li {
+  list-style: disc;
+}

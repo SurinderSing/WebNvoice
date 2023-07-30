@@ -1,0 +1,51 @@
+.about-hero-section {
+  background: url("../img/about-page-img/about-header-img-min.jpg") no-repeat
+    center center/cover;
+}
+
+.hero-container {
+  text-align: center;
+  margin-top: 5em;
+}
+
+/* .about-section {
+  margin-top: 4em;
+} */
+
+.about-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #565656;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+.sec-img,
+.detail-sec {
+  flex: 1;
+  min-width: 19rem;
+}
+
+.detail-sec ul {
+  margin-top: 1em;
+  padding-left: 1.3em;
+}
+.detail-sec li {
+  list-style-type: disc;
+}
+
+@media screen and (max-width: 700px) {
+  .sec-img img {
+    margin-inline: auto;
+  }
+}

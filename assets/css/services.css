@@ -1,0 +1,74 @@
+.services-hero-section {
+  background: url("../img/services-page-img/Services-Header\ img-min.png")
+    no-repeat center center/cover;
+
+  /* margin-bottom: 6em; */
+}
+
+.hero-container {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.service-section {
+  background-color: #f8f8f8;
+}
+
+.service-heading,
+.service-heading-2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.service-heading-2 {
+  color: #565656;
+}
+
+.cards-container {
+  display: flex;
+  gap: 2em;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-sec {
+  text-align: center;
+}
+
+.svg-card {
+  padding: 2em 5em;
+  border: 1px solid #2d6a4f;
+  border-radius: 10px;
+  background-color: #fff;
+  max-width: 20rem;
+  min-width: 19rem;
+  min-height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.svg-card H5 {
+  line-height: 27px;
+  color: #fff;
+}
+
+.service-inner {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.service-inner .detail-container {
+  flex: 60%;
+  max-width: 55rem;
+}
+.service-inner .svg-card {
+  flex: 20%;
+}

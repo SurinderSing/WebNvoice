@@ -1,0 +1,148 @@
+.home-hero-section {
+  background-color: var(--primary-color);
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  flex-wrap: wrap-reverse;
+}
+.left-side,
+.right-side {
+  flex: 45%;
+  min-width: 47%;
+}
+.right-side img {
+  margin-inline: auto;
+}
+.clien-review {
+  margin-bottom: 3em;
+}
+.left-side h1 {
+  margin-bottom: 3rem;
+}
+.btn-pair {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+.btn-pair a:nth-child(2) button {
+  border: 1px solid #52b788;
+  background: #1b4332;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+.left-side img {
+  margin-inline: auto;
+}
+
+.about-container button {
+  margin-top: 2em;
+}
+
+.services-card-container,
+.produts-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 6em;
+  column-gap: 2em;
+  max-width: 60rem;
+  margin-inline: auto;
+}
+.card {
+  min-height: 12rem;
+  background: #f3f3f3;
+  border-radius: 5px;
+  padding: 1.5em 1.5em;
+  max-width: 25rem;
+}
+
+.services-card .card-img {
+  position: relative;
+  height: 35px;
+}
+.services-card .card-img img {
+  position: absolute;
+  top: -70px;
+  left: 0;
+}
+
+.card-pera {
+  margin-bottom: 2em;
+}
+
+.section-products {
+  background-color: var(--secondary-color);
+}
+
+.products-card {
+  text-align: center;
+}
+.products-card .card-img {
+  position: relative;
+  height: 35px;
+}
+.products-card .card-img img {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.testimonials-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 2.5em;
+  align-items: end;
+  flex-wrap: wrap;
+}
+.testimonials-card-container .testimonials-card .card-img {
+  margin-bottom: 1em;
+}
+.testimonials-card-container .testimonials-card > p {
+  margin-bottom: 1em;
+}
+.testimonials-card-container .testimonials-card .profile {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.section-contact-form {
+  padding-left: 0;
+}
+.section-contact-form .form-container {
+  display: flex;
+  gap: 4em;
+  align-items: end;
+  justify-content: space-between;
+}
+.section-contact-form .form-container .form {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 2em 5em;
+}
+.form-field {
+  margin-bottom: 0.5em;
+}
+
+.form-container .form-mascot {
+  min-width: 10rem;
+}
+
+@media screen and (max-width: 900px) {
+  .form-container .form-mascot {
+    display: none;
+  }
+}

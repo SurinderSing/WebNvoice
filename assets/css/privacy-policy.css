@@ -1,0 +1,40 @@
+.policy-hero-section {
+  background: url("../img/privacy-policy-page-img/Privacy\ policy-Header\ img-min.png")
+    no-repeat center center/cover;
+
+  margin-bottom: 2em;
+}
+
+.hero-container {
+  text-align: center;
+  margin-top: 5em;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #565656;
+  text-align: left;
+  margin-inline: unset;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #565656;
+}
+
+.level-1 {
+  padding-left: 0.4em;
+}
+.level-2 {
+  padding-left: 2em;
+}
